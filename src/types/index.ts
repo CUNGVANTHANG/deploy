@@ -12,6 +12,7 @@ export interface User {
     location?: string;
     department?: string;
     title?: string;
+    status?: 'ACTIVE' | 'INACTIVE' | 'SUSPENDED';
 }
 
 export interface Tenant {
