@@ -31,6 +31,7 @@ export interface Project {
     status: 'ACTIVE' | 'ARCHIVED';
     memberIds: string[];
     progress?: number;
+    createdAt?: string;
 }
 
 export interface Team {

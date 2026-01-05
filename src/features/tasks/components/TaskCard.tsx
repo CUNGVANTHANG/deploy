@@ -2,7 +2,7 @@ import { Card, CardContent, CardFooter } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 import { Task } from "@/types";
-import { AlertCircle, CheckCircle2, Clock } from "lucide-react";
+import { AlertCircle, Clock } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 interface TaskCardProps {

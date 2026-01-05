@@ -38,7 +38,7 @@ class AuthStorageService {
         localStorage.removeItem(CURRENT_USER_KEY);
     }
 
-    async login(email: string, password: string): Promise<User> {
+    async login(email: string, _password: string): Promise<User> {
         // Simulate API delay
         await new Promise(resolve => setTimeout(resolve, 800));
 
@@ -69,7 +69,7 @@ class AuthStorageService {
             id: `u${Date.now()}`,
             name: data.name,
             email: data.email,
-            role: 'VIEWER', // Default role
+            role: 'REVIEWER', // Default role
             avatarColor: 'bg-emerald-500', // Random color could be better
             status: 'ACTIVE'
         };

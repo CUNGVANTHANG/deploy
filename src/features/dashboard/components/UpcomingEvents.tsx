@@ -1,6 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Calendar, Plus, FolderPlus, FilePlus } from "lucide-react";
+import { Calendar, FolderPlus, FilePlus } from "lucide-react";
 import { UpcomingEvent } from "@/types";
 import { cn } from "@/lib/utils";
 import { format } from "date-fns";
